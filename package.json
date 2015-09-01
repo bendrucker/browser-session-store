@@ -24,7 +24,9 @@
     "standard": "^4.0.0"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "store.js",
+    "browser.js"
   ],
   "dependencies": {
     "browser-async-store": "~1.0.0",

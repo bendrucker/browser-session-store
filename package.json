@@ -1,0 +1,34 @@
+{
+  "name": "browser-session-store",
+  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Async sessionStorage interface with a Node fallback",
+  "license": "MIT",
+  "repository": "bendrucker/browser-session-store",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "browser",
+    "sessionStorage",
+    "session",
+    "storage"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "global": "~4.3.0",
+    "has-session-storage": "~1.0.0",
+    "localStorage": "~1.0.3"
+  }
+}

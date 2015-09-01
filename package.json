@@ -27,8 +27,12 @@
     "index.js"
   ],
   "dependencies": {
+    "browser-async-store": "~1.0.0",
     "global": "~4.3.0",
     "has-session-storage": "~1.0.0",
     "localStorage": "~1.0.3"
+  },
+  "browser": {
+    "./store.js": "./browser.js"
   }
 }

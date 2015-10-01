@@ -4,6 +4,6 @@
 
 var supported = require('has-session-storage')
 var window = require('global/window')
-var shim = require('localStorage')
+var Storage = require('storage-sham')
 
-module.exports = supported ? window.sessionStorage : shim
+module.exports = supported ? window.sessionStorage : Storage()

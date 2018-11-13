@@ -1,4 +1,4 @@
-# browser-session-store [![Build Status](https://travis-ci.org/bendrucker/browser-session-store.svg?branch=master)](https://travis-ci.org/bendrucker/browser-session-store)
+# browser-session-store [![Build Status](https://travis-ci.org/bendrucker/browser-session-store.svg?branch=master)](https://travis-ci.org/bendrucker/browser-session-store) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/browser-session-store.svg)](https://greenkeeper.io/)
 
 > Async sessionStorage interface with a Node fallback
 
